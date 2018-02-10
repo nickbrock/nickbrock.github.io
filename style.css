@@ -1,0 +1,99 @@
+
+body {
+  background-color: #EFF1F3;
+}
+.padding {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+}
+
+header {
+  background-color: #223843;
+  color: #ffffff;
+  height: 50px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+  color: #F6AE2D;
+}
+
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #F6AE2D
+}
+
+a {
+  font-family: 'Quicksand', sans-serif
+}
+
+/* unvisited link */
+a:link {
+    color: #86BBD8;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #33658A;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #F6AE2D;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #86BBD8;
+    text-decoration: underline;
+}
+
+
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #223843'
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #223843;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #16242B;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
